@@ -5,7 +5,7 @@
 This is a simple demonstration for how to build a docker image iteratively, changing the contents of the image at each turn.
 The script will run 10 iterations and create images `iterate-demo:iter-N` for N = 0 to 9. Running the image produces a different output each time.
 
-## Dependencies
+## Dependencies
 
 - a working local installlation of `docker`
 - tested with Anaconda Python 3.8
