@@ -42,7 +42,6 @@ for i in range(0, 10):
     
     # Build the image using `src/Dockerfile`, giving it a new image
     print(f"Build: {tag}")
-    #apiclient = docker.APIClient()
     client.images.build(path='src', tag=tag)
 
     # Can we see the new version?
